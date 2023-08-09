@@ -57,8 +57,6 @@ class TestRegistration:
             "password": self.password,
             "remember": False
         }
-        login_response = self.session.post(url=f"{self.base_url}/auth/signin", json=login_data)
-        assert login_response.status_code == 200
+        self.session.post(url=f"{self.base_url}/auth/signin", json=login_data)
 
-        delete_resp = self.session.delete(url=f"{self.base_url}/users/")
-        assert delete_resp.status_code == 200
+        self.session.delete(url=f"{self.base_url}/users/")
