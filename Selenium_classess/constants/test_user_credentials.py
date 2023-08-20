@@ -1,0 +1,4 @@
+TEST_USER_LOGIN = "testuser@test.com"
+TEST_USER_PASSWORD = "Qwerty1234"
+TEST_USER_NAME = "Tom"
+TEST_USER_LAST_NAME = "Araya"
