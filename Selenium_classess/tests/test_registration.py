@@ -6,7 +6,7 @@ from Selenium_classess.tests.test_base import TestBase
 from Selenium_classess.constants.url_constants import DEFAULT_API_URL
 
 
-@allure.feature('User registration')
+@allure.feature('User registration flow')
 @allure.story('Registration on https://qauto2.forstudy.space/api with test user')
 class TestRegistration(TestBase):
     def setup_class(self):
